@@ -1,0 +1,113 @@
+.container-services {
+  width: 100%;
+  height: auto;
+  background-color: #0a0a2a;
+  padding-top: 30px;
+}
+.container-services .subTitle {
+  font-size: 2.5em;
+  color: #8dc63f;
+  margin: 0;
+  text-align: center;
+}
+
+.services {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin: 10px auto;
+  gap: 25px;
+  z-index: 100;
+}
+.item-services {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item-services h2 {
+  margin: 7px auto;
+  text-align: center;
+}
+.item-services p {
+  margin: 7px auto;
+}
+.item-services img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+.item-services a {
+  display: block;
+  margin: auto;
+  width: 120px;
+  padding: 10px;
+  background-color: #8dc63f;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 7px;
+}
+@media (min-width: 768px) {
+  .container-services {
+    width: 100%;
+    height: 400px;
+    background-color: #0a0a2a;
+    padding-top: 30px;
+    margin-top: 20px;
+  }
+  .container-services .subTitle {
+    font-size: 3em;
+    color: #8dc63f;
+    margin: 0;
+    text-align: center;
+  }
+
+  .services {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px auto;
+    gap: 25px;
+    z-index: 100;
+  }
+  .item-services {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .item-services h2 {
+    margin: 7px auto;
+    text-align: center;
+  }
+  .item-services p {
+    margin: 7px auto 12px auto;
+    text-align: justify;
+  }
+  .item-services img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+  }
+  .item-services a {
+    display: block;
+    margin: auto;
+    width: 120px;
+    padding: 10px;
+    background-color: #8dc63f;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 1.1em;
+  }
+}
