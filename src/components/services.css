@@ -3,6 +3,7 @@
   height: auto;
   background-color: #0a0a2a;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 .container-services .subTitle {
   font-size: 2.5em;
@@ -59,7 +60,7 @@
   width: 0;
   background-color: #8dc63f;
   display: block;
-  border-radius: 50px;
+  border-radius: 0px;
   position: absolute;
   bottom: 0;
   left: 0;
