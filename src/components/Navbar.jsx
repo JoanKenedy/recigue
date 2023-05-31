@@ -11,14 +11,13 @@ const Navbar = () => {
     <header>
       <div className="menu-top">
         <p>
-          <i class="fa-solid fa-location-dot"></i> 770 East Linden Street New
-          York{" "}
+          <i class="fa-solid fa-location-dot"></i> Jilotepec Estado de México
         </p>
         <p>
-          <i class="fa-solid fa-phone"></i> 707 355-633-755
+          <i class="fa-solid fa-phone"></i> 5610224971
         </p>
       </div>
-      <div className="container-menu">
+      <div className="container-menu" id="navbar">
         <div className="container-logo">
           <img src={Logo} alt="" />
         </div>
@@ -29,22 +28,35 @@ const Navbar = () => {
           ></i>
           <ul>
             <li>
-              <a href="">Inicio</a>
+              <a href="#navbar" onClick={() => setIsOpen(!isOpen)}>
+                Inicio
+              </a>
             </li>
           </ul>
           <ul>
             <li>
-              <a href="">Nosotros</a>
+              <a href="#nosotros" onClick={() => setIsOpen(!isOpen)}>
+                Nosotros
+              </a>
             </li>
           </ul>
           <ul>
             <li>
-              <a href="">Servicios</a>
+              <a href="#servicios" onClick={() => setIsOpen(!isOpen)}>
+                Servicios
+              </a>
             </li>
           </ul>
           <ul>
             <li>
-              <a href="" className="btn-header">
+              <a href="#galeria" onClick={() => setIsOpen(!isOpen)}>
+                Galeria
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="tel:5610224971" target="_blank" className="btn-header">
                 Contacto
               </a>
             </li>

@@ -13,7 +13,7 @@ import { Autoplay, EffectFade, Navigation, Pagination } from "swiper";
 
 import Slider1 from "../imagenes/slider1.jpg";
 import Slider2 from "../imagenes/slider2.jpg";
-import Slider3 from "../imagenes/slider3.jpg";
+import Slider3 from "../imagenes/concepto-reciclaje-plano-laico.jpg";
 
 const HeroDesktop = () => {
   return (
@@ -36,8 +36,8 @@ const HeroDesktop = () => {
           <img src={Slider1} className="img-slider" />
           <div className="container-text-slider">
             <div className="text-slider uno">
-              <h2>Lorem ipsum dolor sit.</h2>
-              <p>Lorem, ipsum dolor.</p>
+              <h2>Reciclaje Guerrero</h2>
+              <p>27 años de experiencia nos respaldan</p>
             </div>
           </div>
         </SwiperSlide>
@@ -45,8 +45,11 @@ const HeroDesktop = () => {
           <img src={Slider2} className="img-slider" />
           <div className="container-text-slider ">
             <div className="text-slider dos">
-              <h2>Lorem ipsum dolor sit 2.</h2>
-              <p>Lorem, ipsum dolor.</p>
+              <h2>¿A qué nos dedicamos?</h2>
+              <p>
+                Recicladora de chatarra, metales industriales y destrucción de
+                maquinaria obsoleta
+              </p>
             </div>
           </div>
         </SwiperSlide>
@@ -54,8 +57,8 @@ const HeroDesktop = () => {
           <img src={Slider3} className="img-slider" />
           <div className="container-text-slider">
             <div className="text-slider tres">
-              <h2>Lorem ipsum dolor sit 3.</h2>
-              <p>Lorem, ipsum dolor.</p>
+              <h2>Cuidamos nuestro planeta</h2>
+              <p>Contribuimos al medio ambiente reciclando</p>
             </div>
           </div>
         </SwiperSlide>

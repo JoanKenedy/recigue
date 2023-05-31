@@ -1,14 +1,25 @@
-import React from 'react';
-import '../components/barra.css'
+import React from "react";
+import "../components/barra.css";
 
 const Barra = () => {
   return (
-    <div className='container-barra'>
-        <h2>¿Tiene preguntas? </h2>
-        <p>¡Póngase en contacto con nosotros hoy!</p>
-        <a href="">Contacto</a>
+    <div className="container-barra">
+      <h2 data-aos="zoom-in" data-aos-duration="1000">
+        ¿Tiene preguntas?
+      </h2>
+      <p data-aos="zoom-in" data-aos-duration="1000">
+        ¡Póngase en contacto con nosotros hoy!
+      </p>
+      <a
+        href="https://api.whatsapp.com/send?phone=525610224971"
+        target="_blank"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+      >
+        Contacto
+      </a>
     </div>
-  )
-}
+  );
+};
 
-export default Barra
+export default Barra;
