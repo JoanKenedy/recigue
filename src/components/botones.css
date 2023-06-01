@@ -9,7 +9,7 @@
   z-index: 999;
 }
 .botones a:nth-child(1) {
-  bottom: 12vh;
+  bottom: 14vh;
 }
 .botones a:nth-child(2) {
   bottom: 5vh;
@@ -35,7 +35,7 @@
     height: 60px;
   }
   .botones a:nth-child(1) {
-    bottom: 13vh;
+    bottom: 14vh;
     right: 0;
   }
   .botones a:nth-child(2) {

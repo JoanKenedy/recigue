@@ -11,7 +11,7 @@ const Barra = () => {
         ¡Póngase en contacto con nosotros hoy!
       </p>
       <a
-        href="https://api.whatsapp.com/send?phone=525610224971"
+        href="https://api.whatsapp.com/send?phone=525545147021"
         target="_blank"
         data-aos="zoom-in"
         data-aos-duration="1000"

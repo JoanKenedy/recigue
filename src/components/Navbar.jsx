@@ -14,7 +14,12 @@ const Navbar = () => {
           <i class="fa-solid fa-location-dot"></i> Jilotepec Estado de México
         </p>
         <p>
-          <i class="fa-solid fa-phone"></i> 5610224971
+          <div>
+            <i class="fa-solid fa-phone"></i> 5527655796
+          </div>
+          <div>
+            <i class="fa-solid fa-phone"></i> 5545147021
+          </div>
         </p>
       </div>
       <div className="container-menu" id="navbar">
@@ -56,7 +61,11 @@ const Navbar = () => {
           </ul>
           <ul>
             <li>
-              <a href="tel:5610224971" target="_blank" className="btn-header">
+              <a
+                href="https://api.whatsapp.com/send?phone=525610224971"
+                target="_blank"
+                className="btn-header"
+              >
                 Contacto
               </a>
             </li>

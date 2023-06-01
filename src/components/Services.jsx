@@ -21,7 +21,7 @@ const Services = () => {
             materiales a nuestro patio , pesamos y pagamos lo justo .
           </p>
           <a
-            href="https://api.whatsapp.com/send?phone=525610224971"
+            href="https://api.whatsapp.com/send?phone=525527655796"
             target="_blank"
           >
             Contacto
@@ -40,7 +40,7 @@ const Services = () => {
             las tareas encomendadas.
           </p>
           <a
-            href="https://api.whatsapp.com/send?phone=525610224971"
+            href="https://api.whatsapp.com/send?phone=525527655796"
             target="_blank"
           >
             Contacto
@@ -58,7 +58,7 @@ const Services = () => {
             vamos hasta tu domicilio y hacemos la recolección.
           </p>
           <a
-            href="https://api.whatsapp.com/send?phone=525610224971"
+            href="https://api.whatsapp.com/send?phone=525527655796"
             target="_blank"
           >
             Contacto
