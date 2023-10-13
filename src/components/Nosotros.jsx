@@ -1,5 +1,5 @@
 import React from "react";
-import About from "../imagenes/chatarra-grua.jpg";
+import About from "../imagenes/drchavez.jpeg";
 import "../components/nosotros.css";
 
 const Nosotros = () => {
@@ -11,23 +11,19 @@ const Nosotros = () => {
           data-aos="fade-right"
           data-aos-duration="1000"
         >
-          <h2>Conocénos</h2>
+          <h2>Dra. Diana Chávez Pavón</h2>
+          <h3>No. de cédula: 12169610</h3>
           <p>
-            Somos una empresa 100% mexicana dedicada a la recolección de
-            materiales industriales y de oficina para el reciclaje, tomando en
-            cuenta el cuidado del medio ambiente y tiene el compromiso de ser
-            una empresa sustentable y de brindar a sus clientes la opción de
-            cuidar la naturaleza. Nuestra misión es brindar a nuestros clientes
-            un programa de reciclaje que proporcione un manejo responsable del
-            material y/o desecho industrial que estos producen, para que
-            provoque un impacto ambiental positivo y se derive de beneficios
-            para la sociedad.
-          </p>
-          <p>
-            Contamos con más de 27 años de experiencia, tiempo que nos ha
-            permitido mantener innovaciones acordes a las exigencias de estos
-            tiempos, desarrollando una infraestructura para dar el mejor
-            servicio .
+            Egresada de la Facultad de Medicina (UNAM), realizando la
+            Especialidad de Ginecología y Obstetricia en el Hospital General de
+            México "Dr. Eduardo Liceaga", siendo en esta misma institución donde
+            efectuó el Diplomado de Colposcopía y Patología del Tracto Inferior.
+            Profesionista que se conduce según los principios éticos y
+            humanistas que exigen el cuidado de la integridad física y mental de
+            sus pacientes. Con especial interés en la SALUD DE LA MUJER,
+            brindando atención médica especializada de manera integral,
+            ofreciendo empatía y confianza a cada una de ellas, teniendo
+            presente sus necesidades y así indicar el tratamiento ideal.
           </p>
         </div>
         <div

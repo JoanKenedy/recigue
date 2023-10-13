@@ -15,7 +15,7 @@ header {
   padding-left: 20px;
 }
 .container-logo img {
-  width: 55%;
+  width: 30%;
   height: auto;
 }
 .menu {
@@ -24,7 +24,7 @@ header {
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #932a8e;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -77,11 +77,17 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 2px 65px;
-    background-color: #8dc63f;
+
+    background-color: #932a8e;
   }
   .menu-top p {
     color: #fff;
     font-size: 1rem;
+  }
+  .menu-top p a {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
   }
   .menu-top p i {
     margin-right: 5px;
@@ -131,7 +137,8 @@ header {
   }
   .btn-header {
     display: block;
-    background-color: #3fa9f5;
+
+    background-color: #932a8e;
     width: 150px;
     color: #fff !important;
     margin-top: -12px;

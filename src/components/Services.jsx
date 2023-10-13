@@ -1,8 +1,7 @@
 import React from "react";
 import "../components/services.css";
-import Pesa from "../imagenes/grua.png";
-import Industria from "../imagenes/industria.png";
-import Camion from "../imagenes/camion.png";
+import Pesa from "../imagenes/gineco.png";
+import Industria from "../imagenes/obstetrics.png";
 
 const Services = () => {
   return (
@@ -15,10 +14,14 @@ const Services = () => {
           data-aos-duration="1000"
         >
           <img src={Pesa} alt="" />
-          <h2>Compra en patio</h2>
+          <h2>Ginecología</h2>
           <p>
-            Lo que nos distingue es la honestidad y seriedad. Trae tus
-            materiales a nuestro patio , pesamos y pagamos lo justo .
+            La ginecología es una especialidad de la medicina que se centra en
+            el estudio del sistema reproductor femenino. Los profesionales que
+            se ocupan de esta especialidad se conocen como ginecólogos, que son
+            los especialistas que atienden todas las patologías relacionadas con
+            los órganos femeninos como el útero, la vagina y los ovarios, y
+            también de la prevención de enfermedades futuras.
           </p>
           <a
             href="https://api.whatsapp.com/send?phone=525527655796"
@@ -33,29 +36,12 @@ const Services = () => {
           data-aos-duration="1000"
         >
           <img src={Industria} alt="" />
-          <h2>Recolección en Industrias</h2>
+          <h2>Obstetricia</h2>
           <p>
-            Llámanos y agendamos la recolección a tu empresa o negocio. Somos
-            profesionales que trabajamos con seriedad para el cumplimiento de
-            las tareas encomendadas.
-          </p>
-          <a
-            href="https://api.whatsapp.com/send?phone=525527655796"
-            target="_blank"
-          >
-            Contacto
-          </a>
-        </div>
-        <div
-          className="item-services"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-        >
-          <img src={Camion} alt="" />
-          <h2>Recolección a domicilio</h2>
-          <p>
-            Si eres particular y tienes mucho material , contáctanos y con gusto
-            vamos hasta tu domicilio y hacemos la recolección.
+            La función del obstetra es muy amplia y se convierte en esencial
+            durante el embarazo, ya que es el profesional encargado de acompañar
+            a la mujer durante la gestación, el parto y el puerperio, tanto en
+            gestaciones normales como en las que presentan alguna complicación.
           </p>
           <a
             href="https://api.whatsapp.com/send?phone=525527655796"

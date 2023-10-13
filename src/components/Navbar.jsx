@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../imagenes/logo-color.png";
+import Logo from "../imagenes/logo-gineco.png";
 import Hamburguer from "../imagenes/hamburger.png";
 
 import "../components/navbar.css";
@@ -11,14 +11,22 @@ const Navbar = () => {
     <header>
       <div className="menu-top">
         <p>
-          <i class="fa-solid fa-location-dot"></i> Jilotepec Estado de México
+          <i class="fa-solid fa-location-dot"></i> Calz. Acoxpa 430, Coapa,
+          Ex-Hacienda Coapa, Tlalpan, CP 14308 CDMX
         </p>
         <p>
           <div>
-            <i class="fa-solid fa-phone"></i> 5527655796
+            <a href="tel:5613147657" target="_blank">
+              <i class="fa-solid fa-phone"></i> 5613147657
+            </a>
           </div>
           <div>
-            <i class="fa-solid fa-phone"></i> 5545147021
+            <a
+              href="https://api.whatsapp.com/send/?phone=5613147657"
+              target="_blank"
+            >
+              <i className="fa-brands fa-square-whatsapp"></i> +525613147657
+            </a>
           </div>
         </p>
       </div>
@@ -41,21 +49,21 @@ const Navbar = () => {
           <ul>
             <li>
               <a href="#nosotros" onClick={() => setIsOpen(!isOpen)}>
-                Nosotros
+                Conóceme
               </a>
             </li>
           </ul>
           <ul>
             <li>
               <a href="#servicios" onClick={() => setIsOpen(!isOpen)}>
-                Servicios
+                Promociones
               </a>
             </li>
           </ul>
           <ul>
             <li>
               <a href="#galeria" onClick={() => setIsOpen(!isOpen)}>
-                Galeria
+                Servicios
               </a>
             </li>
           </ul>
